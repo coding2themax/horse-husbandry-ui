@@ -1,0 +1,26 @@
+[
+  {
+      "id": "1",
+      "breedName": "Halflinger",
+      "BloodType": "COLD",
+      "HorseType": "LIGHT"
+  },
+  {
+      "id": "2",
+      "breedName": "American Shetland",
+      "BloodType": "WARM",
+      "HorseType": "PONY"
+  },
+  {
+      "id": "3",
+      "breedName": "Pinto",
+      "BloodType": "WARM",
+      "HorseType": "LIGHT"
+  },
+  {
+      "id": "4",
+      "breedName": "Arabian",
+      "BloodType": "HOT",
+      "HorseType": "LIGHT"
+  }
+]
