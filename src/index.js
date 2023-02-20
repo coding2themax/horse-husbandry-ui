@@ -3,17 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import JSON from './breed.json'
 import Breed from './breed';
+import Header from './breed_header';
 
 class App extends React.Component {
-  render() {
-    return (
 
-      <header>
-        <div>Logo</div>
-        <div className='input-now'>input</div>
-        <Breed/>
-        <input/>
-      </header>
+  state = {
+    breedList: JSON,
+  }
+
+  render() {
+
+    const {breedList} = this.state;
+    return (
+      <>
+      <Header/>
+      <Breed breedList={breedList}/>
+      </>
     );
   }
 }

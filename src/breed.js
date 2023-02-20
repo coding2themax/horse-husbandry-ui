@@ -1,10 +1,14 @@
 import React from "react";
+import BreedList from "./breed_list";
 
-
-const Breed = () =>{
+const Breed = (props) =>{
 
   return (
-    <div>hello</div>
+    <>
+      {props.breedList.map((breed) => (
+      <BreedList breed={breed} key={breed.id}  />
+    ))}
+    </>
   )
 }
 
